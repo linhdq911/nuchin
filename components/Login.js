@@ -71,7 +71,7 @@ const Login = () => {
       <TouchableOpacity
         style={[
           styles.touchLog,
-          {backgroundColor: '#FFFFFF', flexDirection: 'row'},
+          {backgroundColor: '#FFFFFF', flexDirection: 'row',elevation:6,},
         ]}>
         <Image
           source={require('../image/flat-color-icons_google.png')}
@@ -89,14 +89,14 @@ export default Login;
 
 const styles = StyleSheet.create({
   main: {
-    backgroundColor: 'gray',
+    backgroundColor: '#ffff',
     height: '100%',
     alignItems: 'center',
   },
   txtInput: {
     width: 347,
     height: 58,
-    borderWidth: 0.5,
+    borderWidth: 1,
     borderColor: '#C4C4C4',
     backgroundColor: '#FEFBFA',
     marginBottom: 18,

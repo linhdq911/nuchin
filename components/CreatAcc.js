@@ -58,7 +58,7 @@ const CreatAcc = () => {
         />
       </View>
 
-      <View style={{flexDirection: 'row', alignItems: 'center'}}>
+      <View style={{flexDirection: 'row', alignItems: 'center',}}>
         <TouchableOpacity
           style={{
             width: 183,
@@ -106,6 +106,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
+    elevation:6
   },
   touchFb2: {
     backgroundColor: 'blue',
@@ -118,7 +119,7 @@ const styles = StyleSheet.create({
   txtInput: {
     width: 347,
     height: 58,
-    borderWidth: 0.5,
+    borderWidth: 1,
     borderRadius: 23,
     borderColor: '#C4C4C4',
     backgroundColor: '#FEFBFA',

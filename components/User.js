@@ -1,14 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import {StyleSheet, Text, View, Dimensions} from 'react-native';
 
 const User = () => {
   return (
     <View>
-      <Text>User</Text>
+      <Text>jmk</Text>
     </View>
-  )
+  );
 }
 
 export default User
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+
+});

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125157840664",
+    "project_id": "nuchin-70038",
+    "storage_bucket": "nuchin-70038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125157840664:android:d33eee1fdbd0350585706d",
+        "android_client_info": {
+          "package_name": "com.nuchin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125157840664-1l3i53el3pp7k20t426kc2clce48m4bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE6Ds-JCJWpAkHFdqqCsv3v6gBMD-_a7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125157840664-1l3i53el3pp7k20t426kc2clce48m4bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

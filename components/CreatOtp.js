@@ -15,7 +15,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 
 const CreatOtp = () => {
   return (
-    <ScrollView>
+    <View style={{}}>
       <View style={styles.top}>
         <View style={{alignSelf: 'center', top: 50}}>
           <Image
@@ -83,7 +83,7 @@ const CreatOtp = () => {
             alignItems: 'center',
             position: 'absolute',
             left: 334,
-            top: 265,
+            top: '100%',
           }}>
           <AntDesign
             style={{
@@ -93,7 +93,7 @@ const CreatOtp = () => {
           />
         </TouchableOpacity>
       </View>
-    </ScrollView>
+    </View>
   );
 };
 
@@ -102,7 +102,7 @@ export default CreatOtp;
 const styles = StyleSheet.create({
   top: {
     backgroundColor: '#D04711',
-    width: 414,
+    width: '100%',
     height: 300,
     borderRadius: 43,
   },

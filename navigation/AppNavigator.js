@@ -8,6 +8,7 @@ import ForgotPassword from '../components/ForgotPassword';
 import CreatOtp from '../components/CreatOtp';
 import Home from '../components/Home';
 import BottomTabNav from './BottomTabNav';
+import ChatMess from '../screens/ChatMess';
 
 import SplashScreen from 'react-native-splash-screen';
 
@@ -56,6 +57,12 @@ const AppNavigator = () => {
         options={{headerShown: false}}
         name="Home"
         component={Home}
+      />
+
+      <Stack.Screen
+        options={{headerShown: false}}
+        name="ChatMess"
+        component={ChatMess}
       />
     </Stack.Navigator>
     // </NavigationContainer>
